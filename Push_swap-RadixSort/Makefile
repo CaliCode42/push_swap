@@ -79,6 +79,7 @@ $(NAME): $(OBJ_FILES) $(LIBFT)
 clean:
 	make clean -C $(LIBFT_DIR)
 	rm -f $(OBJ_DIR)/*.o
+	rm -rf $(OBJ_DIR)
 
 fclean: clean
 	make fclean -C $(LIBFT_DIR)
